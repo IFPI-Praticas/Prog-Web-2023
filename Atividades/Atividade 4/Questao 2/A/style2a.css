@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    border: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#topo {
+    background-color: green;
+    height: 10%;
+    width: 100%;
+}
+
+#menu {
+    background-color: blue;
+    height: 5%;
+    width: 100%;
+}
+
+#conteudo {
+    background-color: aqua;
+    height: 80%;
+    width: 100%;
+}
+
+#rodape {
+    background-color: green;
+    height: 5%;
+    width: 100%;
+}
