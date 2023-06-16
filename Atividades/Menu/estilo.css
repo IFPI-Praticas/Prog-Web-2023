@@ -1,0 +1,37 @@
+#menu {
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu li {
+    position: relative;
+}
+
+#menu li ul {
+    position: absolute;
+    left: 149px;
+    top: 0px;
+    display: none;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+
+#menu li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: cyan;
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+}

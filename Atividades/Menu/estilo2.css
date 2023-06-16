@@ -1,0 +1,37 @@
+#menu {
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    background-color: #fff;
+    display: none;
+}
+
+#menu li:hover ul {
+    display: block;
+    color: red;
+}
