@@ -1,0 +1,35 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-rows: 100px 100px 100px; */
+
+    justify-content: center;
+    align-content: center;
+    justify-items: end;
+}
+
+.container>div {
+    background: #76c198;
+    width: 50%;
+    height: 50%;
+}
+
+.diferente {
+    align-self: center;
+    justify-self: center;
+}
