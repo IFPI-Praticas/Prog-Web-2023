@@ -1,0 +1,11 @@
+div {
+    /* width: 600px; */
+    background-color: antiquewhite;
+    height: 600px;
+}
+
+@media (max-width: 900px) {
+    div {
+        background-color: #7a7a;
+    }
+}
